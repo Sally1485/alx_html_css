@@ -1,0 +1,139 @@
+
+
+
+
+header {
+    background-color: gray;
+}
+
+
+nav {
+    padding: 20px;
+    border-bottom: 1px solid gray; 
+    display: flex;
+    align-items: center;
+   }
+
+.logo {
+    font-size: 40px;
+}
+    .link_header{
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0px 20px;
+        gap: 10px;
+        color: rgb(66, 14, 14);
+        display: flex; 
+        justify-content: flex-end; 
+        gap: 20px;
+        list-style-type: none;
+        align-items: center;
+         }
+    
+    .section_one{
+        margin-top: 100px;
+        text-align: center;
+        margin: 0% 40%;
+        align-items: normal;
+         display: flex;
+         justify-content: space-between; /* Distributes space evenly between items */
+            }
+    h1 {
+        font-size: 72px;
+        justify-content: center;
+    }
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+        .heading_h2 {
+            margin: 30px;
+            text-align: center;
+            
+        }
+        .section_a {
+            align-items: flex-end;
+        }
+        button {
+            display: block; /* Treat button as a block-level element */
+            margin: 0 auto; /* Center horizontally */
+            margin-top: 15px;
+        }
+        .executives {
+            display: flex;
+            justify-content: center;
+        justify-content: space-between; 
+        row-gap: 5%;
+        padding: 20px;
+       
+        }       
+         h4 , p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: oblique;
+            font-size: 20px;
+         }
+         
+         h4 {
+            font-style: bold;
+         }
+          header, .executives, .section_one {
+            background-color: dimgray;
+          }
+
+          .quote_section {
+            padding: 20px;
+         justify-content: center;
+            background-color: blueviolet;
+            text-align: left;
+          }
+          .quote_text {
+            text-align: justify;
+            margin-bottom: 10px;
+          }
+
+                 .videos_list {
+                    display: flex;
+                    justify-content: center;
+                justify-content: space-between; 
+                row-gap: 5%;
+                padding: 20px;
+                 }
+                  
+                 .member_container {
+                    display: flex;
+            justify-content: center;
+        justify-content: space-between; 
+        row-gap: 10%;
+        padding: 20px;
+              text-decoration-color: blue;
+
+                 }
+                 .members{
+                    background-color: rgb(27, 16, 16);
+                    text-decoration: chartreuse;
+                 }
+                
+                 .info_a{
+                    display: flex;
+                    justify-content: center;
+                justify-content: space-between; 
+                row-gap: 10%;
+                padding: 20px;
+                 }
+                 .info_b{
+                    display: flex;
+                    justify-content: center;
+                justify-content: space-between; 
+                row-gap: 20%;
+                padding: 20px;
+                 }
+
+            .copy {
+                display: flex;
+                justify-content: center;
+            }                 
+
+            .footer_links{
+                display: flex;
+                justify-content: right;
+            }
