@@ -1,0 +1,48 @@
+body {
+    background-image: url(images/headphones_hero_1.jpg);
+    background-size: cover; /* Makes the image cover the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+padding: 20px;
+
+}
+header{
+    display: flex;
+    margin-bottom: 100px;
+    
+
+}
+ .logo {
+    font-size: 10px;
+ }
+ 
+ a:hover{
+    color: #FF6565;
+       display: inline-block;
+   justify-content: right;
+   margin-right: 10px;
+   text-decoration: none;
+   
+ }
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: beige;
+}
+    p{
+        text-align: center;
+        color: beige;
+    }
+
+    .button:hover{
+        text-align: center;
+        margin: 0 auto; /* Centers the button horizontally */
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        background-color: #ff0000;
+        color: white;
+        border-radius: 5px;
+              display: block;
+    }
+
