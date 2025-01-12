@@ -9,7 +9,7 @@ body{
     background-size: cover; /* Makes the image cover the entire element */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image */
-    animation: slideIn 3s ease-out; /* Apply the animation */
+      animation: fadeIn 3s ease-in;
         } 
  
         @keyframes fadeIn {
