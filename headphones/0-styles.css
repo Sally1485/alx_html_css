@@ -4,14 +4,14 @@ body {
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image */
 padding: 20px;
-
+animation: slideIn 2s ease-out; /* Apply the animation */
 }
 header{
     display: flex;
-    margin-bottom: 100px;
-    
-
+    margin-bottom: 100px;animation: fadeIn 3s ease-in;
+   
 }
+
  .logo {
     font-size: 10px;
  }
@@ -34,15 +34,29 @@ h1{
         color: beige;
     }
 
-    .button:hover{
-        text-align: center;
-        margin: 0 auto; /* Centers the button horizontally */
-        padding: 10px 20px;
-        font-size: 16px;
-        border: none;
-        background-color: #ff0000;
-        color: white;
-        border-radius: 5px;
-              display: block;
+   button{
+    display: block; /* Treat button as a block-level element */
+            margin: 0 auto; /* Center horizontally */
+            margin-top: 15px;
+            background-color: #FF6565;
+            border: none;
+            color: beige;
+            font-size: 20px;
+            border-radius: 20px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+
+   }
     }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    
 
